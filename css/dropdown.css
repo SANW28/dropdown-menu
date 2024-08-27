@@ -1,0 +1,152 @@
+
+
+ul{
+    list-style-type: none;
+}
+
+/*styling of the About us*/
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.AboutUs-dropdown a, .themes a, .Notice-board-dropdown a{
+    text-decoration: none;
+    display: block;
+    background-color: rgba(128, 128, 128, 0.703);
+    padding: 7px;
+    max-width: 170px;
+    font-size: 17px;
+}
+
+.AboutUs-dropdown a:hover, .themes a:hover, .Notice-board-dropdown a:hover{ 
+    background-color: rgb(171, 37, 37);
+}
+.AboutUs, .Notice-board, .themes > a{
+    position: relative;
+    
+}
+.AboutUs-dropdown, .Notice-board-dropdown,.themes{
+    display: none;
+}
+
+.AboutUs:hover .AboutUs-dropdown, .Notice-board:hover .Notice-board-dropdown, .focus > th:hover .Notice-board-dropdown{
+    display: block;
+}
+
+
+/*.themes a {
+    display: block;
+
+}*/
+
+
+
+
+
+
+
+/*.socials{
+    background-color: rgba(46, 46, 46, 0.614);
+    margin:0;
+    border: 0;
+    
+    
+}
+.socials {
+    display: flex;
+    justify-content: end;
+}
+
+.menu li  {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 17px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.AboutUs a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: rgba(128, 128, 128, 0.703);
+    padding: 7px;
+    max-width: 170px;
+    font-size: 17px;
+
+}
+.AboutUs a:hover{
+    background-color: rgb(171, 37, 37);
+}
+.button{
+    border: 0;
+    padding: 17px;
+    background-color: none;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.links{
+    position: relative;
+    display: inline-block;
+}
+
+.AboutUs{
+    display: ;
+    position: absolute;
+}
+
+.dropdown1{
+    display: flex;
+    justify-content: end;
+}
+
+.dropdown1:hover  .AboutUs{
+    display: block;
+}
+/*styling of Focus*/
+
+/*.focus{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.703);
+    padding: 7px;
+    max-width: 170px;
+}
+.focus:hover{
+    background-color: rgb(171, 37, 37);
+}
+.themes1{
+    display: none;
+}
+
+
+.dropdown1:hover .focus{
+    display: block;
+}
+.themes a{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.703);
+    padding: 7px;
+    max-width: 170px;
+}
+

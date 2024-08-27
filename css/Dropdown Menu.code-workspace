@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Dropdown Menu",
+			"path": ".."
+		},
+		{
+			"name": "png",
+			"path": "../../../Downloads/png"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dropdown Menu"
+	}
+}
